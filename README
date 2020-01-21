@@ -4,3 +4,6 @@ Idées :
 - générer des statisqtiques
 - générer un compte-rendu des questions posées et des réponses
 - afficher la bonne réponse en cas d'erreur
+
+
+/home/marine/IdeaProjects/memory/src/main/resources/europe+capitales.txt -o reverse
