@@ -1,0 +1,55 @@
+Numéro : Pays
+01 : Afrique du Sud
+02 : Algérie
+03 : Angola
+04 : Bénin
+05 : Botswana
+06 : Burkina Faso
+07 : Burundi
+08 : Cameroun
+09 : Cap Vert
+10 : République centrafricaine
+11 : Comores
+12 : République du Congo
+13 : République démocratique du Congo
+14 : Côte d'Ivoire
+15 : Djibouti
+16 : Egypte
+17 : Erythrée
+18 : Ethiopie
+19 : Gabon
+20 : Gambie
+21 : Ghana
+22 : Guinée
+23 : Guinée Bissau
+24 : Guinée équatoriale
+25 : Kenya
+26 : Lesotho
+27 : Libéria
+28 : Libye
+29 : Madagascar
+30 : Malawi
+31 : Mali
+32 : Maroc
+33 : Maurice
+34 : Mauritanie
+35 : Mozambique
+36 : Namibie
+37 : Niger
+38 : Nigéria
+39 : Ouganda
+40 : Rwanda
+41 : Sao-Tomé-Et-Principe
+42 : Sénégal
+43 : Seychelles
+44 : Siera Leone
+45 : Somalie
+46 : Soudan
+47 : Soudan du Sud
+48 : ESwatini
+49 : Tanzanie
+50 : Tchad
+51 : Togo
+52 : Tunisie
+53 : Zambie
+54 : Zimbabwe

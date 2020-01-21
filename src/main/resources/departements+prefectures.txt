@@ -1,0 +1,22 @@
+Numéro : Département : Préfecture
+01 : Ain : Bourg-en-Bresse
+02 : Aisne : Laon
+03 : Allier : Moulins
+04 : Alpes-de-Haute-Provence : Digne-les-Bains
+05 : Hautes-Alpes : Gap
+06 : Alpes-Maritimes : Nice
+07 : Ardèche  : Privas
+08 : Ardennes : Charleville-Mézière
+09 : Ariège : Foix
+10 : Aube : Troyes
+11 : Aude : Carcassonne
+12 : Aveyron : Rodez
+13 : Bouches-du-Rhône : Marseille
+14 : Calvados : Caen
+15 : Cantal : Aurillac
+16 : Charente : Angoulême
+17 : Charente-Maritime : La Rochelle
+18 : Cher : Bourges
+19 : Corrèze : Tulle
+2A : Corse-du-Sud : Ajaccio
+2B : Haute-Corse : Bastia

@@ -1,0 +1,6 @@
+Idées :
+- pouvoir parser plus de colonnes
+- pouvoir travailler avec des listes au lieu des maps (clés non uniques)
+- générer des statisqtiques
+- générer un compte-rendu des questions posées et des réponses
+- afficher la bonne réponse en cas d'erreur

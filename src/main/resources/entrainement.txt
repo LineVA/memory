@@ -1,0 +1,16 @@
+Numéro : Nom
+40 : Rwanda
+41 : Sao-Tomé-Et-Principe
+42 : Sénégal
+43 : Seychelles
+44 : Siera Leone
+45 : Somalie
+46 : Soudan
+47 : Soudan du Sud
+48 : ESwatini
+49 : Tanzanie
+50 : Tchad
+51 : Togo
+52 : Tunisie
+53 : Zambie
+54 : Zimbabwe
