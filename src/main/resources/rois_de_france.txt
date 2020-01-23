@@ -1,4 +1,4 @@
-Nom : Date
+Date : Nom
 751 - 768 : Pépin III Le Bref
 768 - 771 : Carloman 1er
 768 - 814 : Charlemagne
@@ -13,5 +13,20 @@ Nom : Date
 922 - 923 : Robert 1er
 923 - 936 : Raoul
 936 - 954 : Louis IV d'Outremer
-954 - 975 : Lothaire
-975 - 976 : Louis V le Fainéant
+954 - 986 : Lothaire
+986 - 987 : Louis V le Fainéant
+987 - 996 : Hugues Capet
+996 - 1031 : Robert II le Pieux
+1031 - 1060 : Henri 1er
+1060 - 1108 : Philippe 1er
+1108 - 1137 : Louis VI le Gros
+1137 - 1180 : Louis VII le Jeune ou le Pieux
+1180 - 1223 : Philippe Auguste
+1223 - 1226 : Louis VIII le Jeune
+1226 - 1270 : Saint-Louis
+1270 - 1285 : Philippe III le Hardi
+1285 - 1314 : Philippe IV le Bel
+1314 - 1316 : Louis X le Hutin
+1316 - 1316 : Jean 1er le Posthume
+1316 - 1322 : Philippe V le Long
+1322 - 1328 : Charles IV le Bel
