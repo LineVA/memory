@@ -5,9 +5,11 @@ import com.doyenm.interrogation.QuestionSelection;
 import com.doyenm.parsing.CommandLineDto;
 import com.doyenm.parsing.CommandLineParsing;
 import com.doyenm.parsing.ListParsing;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.Scanner;
 
+@Slf4j
 public class ListLearning {
 
     private static final ListParsing parsing = new ListParsing();
@@ -22,13 +24,16 @@ public class ListLearning {
 
 
         while(true){
+            log.info("Nouvelle boucle");
             dto = questionSelection.selectQuestion(dto);
+            log.info(dto.getSelectedQuestion().getValue());
             System.out.println(dto.getSelectedQuestion().getValue() +  " (" + dto.getSelectedAnswer().getLegend() + ") ? ");
             dto.setAnswer(in.nextLine());
+            log.info(dto.getAnswer());
             if(answerVerification.checkAnswer(dto)){
                 System.out.println("OK");
             } else {
-                System.out.println("KO : " + dto.getSelectedAnswer().getValue());
+                System.out.println("KO : " + dto.getSelectedAnswer().getValue().toString());
             }
         }
     }

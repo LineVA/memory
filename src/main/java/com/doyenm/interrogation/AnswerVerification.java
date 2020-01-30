@@ -5,6 +5,6 @@ import com.doyenm.InfoDto;
 public class AnswerVerification {
 
     public boolean checkAnswer(InfoDto dto){
-        return dto.getSelectedAnswer().getValue().equalsIgnoreCase(dto.getAnswer());
+        return dto.getSelectedAnswer().getValue().equals(dto.getAnswer());
     }
 }

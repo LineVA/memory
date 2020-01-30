@@ -1,6 +1,7 @@
 package com.doyenm.parsing;
 
 import com.doyenm.InfoDto;
+import com.doyenm.ListDto;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -18,10 +19,16 @@ public class ListParsing {
             List<String> legends =  Arrays.asList(lines.get(0).split(" : "));
 
             lines.remove(0);
-            List<String> values;
-            List<List<String>> allValues = new ArrayList<>();
+            List<String> value;
+            List<ListDto> values;
+            List<List<ListDto>> allValues = new ArrayList<>();
             for(String line : lines){
-                values = Arrays.asList(line.split(" : "));
+                values = new ArrayList<>();
+                value = Arrays.asList(line.split(" : "));
+                for(String v : value){
+                    values.add(new ListDto(v));
+                }
+//                values = new ListDto(Arrays.asList(line.split(" : ")));
                 allValues.add(values);
             }
             return InfoDto.builder()

@@ -12,11 +12,11 @@ import java.util.List;
 public class InfoDto {
 
     private List<String> legends;
-    private List<List<String>> infoLists;
+    private List<List<ListDto>> infoLists;
     @Setter
-    private Pair selectedQuestion;
+    private QuestionPair selectedQuestion;
     @Setter
-    private Pair selectedAnswer;
+    private AnswerPair selectedAnswer;
     @Setter
     private String answer;
 

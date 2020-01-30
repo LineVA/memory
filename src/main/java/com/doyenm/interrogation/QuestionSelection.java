@@ -1,7 +1,8 @@
 package com.doyenm.interrogation;
 
+import com.doyenm.AnswerPair;
 import com.doyenm.InfoDto;
-import com.doyenm.Pair;
+import com.doyenm.QuestionPair;
 
 import java.util.Random;
 
@@ -9,22 +10,26 @@ public class QuestionSelection {
 
     private final Random random = new Random();
 
-    public InfoDto selectQuestion(InfoDto dto){
-        int selectedLine = random.nextInt(dto.getInfoLists().size());
-        int selectedQuestion = random.nextInt(dto.getInfoLists().get(selectedLine).size());
-        int selectedAnswer = random.nextInt(dto.getInfoLists().get(selectedLine).size());
-        while (selectedQuestion == selectedAnswer){
-            selectedAnswer = random.nextInt(dto.getInfoLists().get(selectedLine).size());
+    public InfoDto selectQuestion(InfoDto dto) {
+        int selectedLineIndex = random.nextInt(dto.getInfoLists().size());
+        int selectedQuestionIndex = random.nextInt(dto.getInfoLists().get(selectedLineIndex).size());
+        int selectedAnswerIndex = random.nextInt(dto.getInfoLists().get(selectedLineIndex).size());
+        // If we have selected the same column of the given line for the question and the answer
+        while (selectedQuestionIndex == selectedAnswerIndex) {
+            selectedAnswerIndex = random.nextInt(dto.getInfoLists().get(selectedLineIndex).size());
         }
-        dto.setSelectedQuestion(Pair.builder()
-                .value(dto.getInfoLists().get(selectedLine).get(selectedQuestion))
-                .legend(dto.getLegends().get(selectedQuestion))
-                .build()
+        String selectedQuestion = dto.getInfoLists().get(selectedLineIndex).get(selectedQuestionIndex).getValue();
+        dto.setSelectedQuestion(
+                QuestionPair.builder()
+                        .value(selectedQuestion)
+                        .legend(dto.getLegends().get(selectedQuestionIndex))
+                        .build()
         );
-        dto.setSelectedAnswer(Pair.builder()
-                .value(dto.getInfoLists().get(selectedLine).get(selectedAnswer))
-                .legend(dto.getLegends().get(selectedAnswer))
-                .build()
+        dto.setSelectedAnswer(
+                AnswerPair.builder()
+                        .value(dto.getInfoLists().get(selectedLineIndex).get(selectedAnswerIndex))
+                        .legend(dto.getLegends().get(selectedAnswerIndex))
+                        .build()
         );
         return dto;
     }

@@ -7,7 +7,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @Getter
 @Builder
-public class Pair {
+public class AnswerPair {
     private final String legend;
-    private final String value;
+    private final ListDto value;
 }
